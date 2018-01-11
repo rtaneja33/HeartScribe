@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1971551E628FC0002D0A9C /* Symptoms3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1971541E628FC0002D0A9C /* Symptoms3.png */; };
+		1C1971571E628FCB002D0A9C /* Glucose3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1971561E628FCB002D0A9C /* Glucose3.png */; };
+		1C19715B1E628FD7002D0A9C /* Weight2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C19715A1E628FD7002D0A9C /* Weight2.png */; };
+		1C19715D1E628FF2002D0A9C /* Export4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C19715C1E628FF2002D0A9C /* Export4.png */; };
+		1C19715F1E629008002D0A9C /* BloodPressure3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C19715E1E629008002D0A9C /* BloodPressure3.png */; };
+		1C1971611E6292B2002D0A9C /* Help4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1971601E6292B2002D0A9C /* Help4.png */; };
+		1C1A97D31E968F0E006EBBDD /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A97D21E968F0E006EBBDD /* WeightViewController.swift */; };
+		1C1A97DB1E97EBD4006EBBDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A97DA1E97EBD4006EBBDD /* ViewController.swift */; };
+		1C1A97DF1E97FDE6006EBBDD /* BloodPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A97DE1E97FDE6006EBBDD /* BloodPressureViewController.swift */; };
+		1C1A97E11E9D4616006EBBDD /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A97E01E9D4616006EBBDD /* HelpViewController.swift */; };
+		1C2991521E6D1C750071A909 /* SAVE.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2991511E6D1C750071A909 /* SAVE.png */; };
+		1C2991541E6D1DAE0071A909 /* SAVE2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2991531E6D1DAE0071A909 /* SAVE2.png */; };
+		1C2991561E6D1E4C0071A909 /* SAVE3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2991551E6D1E4C0071A909 /* SAVE3.png */; };
+		1C29915A1E6D33830071A909 /* save2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C2991591E6D33830071A909 /* save2@1x.png */; };
+		1C29915C1E6D33BA0071A909 /* save1.1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C29915B1E6D33BA0071A909 /* save1.1@1x.png */; };
+		1C29915E1E6D343A0071A909 /* save1.1@1x.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C29915D1E6D343A0071A909 /* save1.1@1x.pdf */; };
+		1C2991601E6D36980071A909 /* savejoint.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C29915F1E6D36980071A909 /* savejoint.pdf */; };
+		1C2991621E6D372E0071A909 /* savejoint2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2991611E6D372E0071A909 /* savejoint2.pdf */; };
+		1C669D281E62A65700BF344C /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C669D271E62A65600BF344C /* Home.png */; };
+		1C669D2A1E6A731700BF344C /* Symptoms5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C669D291E6A731700BF344C /* Symptoms5.png */; };
+		1C669D2C1E6B460900BF344C /* Glucose5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C669D2B1E6B460900BF344C /* Glucose5.png */; };
+		1C669D2E1E6B463300BF344C /* BloodPressure5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C669D2D1E6B463300BF344C /* BloodPressure5.png */; };
+		1C669D301E6B467700BF344C /* Weight5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C669D2F1E6B467700BF344C /* Weight5.png */; };
+		1C6E7AAC1E876B7200952485 /* GlucoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E7AAB1E876B7200952485 /* GlucoseViewController.swift */; };
+		1C74F0671E6B55BB004D3436 /* Home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C74F0661E6B55BB004D3436 /* Home2.png */; };
+		1C8AD7881E6B82F700D49E00 /* Symptoms6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AD7871E6B82F700D49E00 /* Symptoms6.png */; };
+		1C8AD78E1E6B83FA00D49E00 /* Glucose7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8AD78D1E6B83FA00D49E00 /* Glucose7.png */; };
+		1CA7BCBB1E621AE90039F92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7BCBA1E621AE90039F92F /* AppDelegate.swift */; };
+		1CA7BCC01E621AE90039F92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA7BCBE1E621AE90039F92F /* Main.storyboard */; };
+		1CA7BCC21E621AE90039F92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA7BCC11E621AE90039F92F /* Assets.xcassets */; };
+		1CA7BCC51E621AE90039F92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA7BCC31E621AE90039F92F /* LaunchScreen.storyboard */; };
+		1CA7BCD01E621AE90039F92F /* ThirdPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7BCCF1E621AE90039F92F /* ThirdPracticeTests.swift */; };
+		1CA7BCDB1E621AEA0039F92F /* ThirdPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7BCDA1E621AEA0039F92F /* ThirdPracticeUITests.swift */; };
+		1CADE27D1E629A0000C36D5B /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CADE27C1E629A0000C36D5B /* SymptomsViewController.swift */; };
+		1CB875D61E6BE596006AAABE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB875D51E6BE596006AAABE /* Info.plist */; };
+		1CB875D71E6BE596006AAABE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB875D51E6BE596006AAABE /* Info.plist */; };
+		1CB875D81E6BE596006AAABE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB875D51E6BE596006AAABE /* Info.plist */; };
+		1CC4CE731E7649D70093E7C1 /* Oxygen-Icons.org-Oxygen-Actions-media-record.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE721E7649D70093E7C1 /* Oxygen-Icons.org-Oxygen-Actions-media-record.ico */; };
+		1CC4CE751E764A1D0093E7C1 /* recording1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE741E764A1D0093E7C1 /* recording1.pdf */; };
+		1CC4CE771E764AA30093E7C1 /* recording2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE761E764AA30093E7C1 /* recording2.pdf */; };
+		1CC4CE791E764B090093E7C1 /* recording2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE781E764B090093E7C1 /* recording2.pdf */; };
+		1CC4CE7B1E764B550093E7C1 /* recording3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE7A1E764B550093E7C1 /* recording3.pdf */; };
+		1CC4CE7D1E7B78130093E7C1 /* hideh.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4CE7C1E7B78130093E7C1 /* hideh.pdf */; };
+		1CCDA30B1E6FC8BA0041419E /* mic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDA30A1E6FC8B90041419E /* mic2.png */; };
+		1CCDA30D1E6FC9330041419E /* mic2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDA30C1E6FC9330041419E /* mic2.pdf */; };
+		1CCDA30F1E74FEDE0041419E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CCDA30E1E74FEDE0041419E /* Default-568h@2x.png */; };
+		1CD0820B1E9D5C1500403C46 /* SendHealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0820A1E9D5C1500403C46 /* SendHealthDataViewController.swift */; };
+		1CD0820D1EA2BB5D00403C46 /* BPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD0820C1EA2BB5D00403C46 /* BPViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA7BCCC1E621AE90039F92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA7BCAF1E621AE90039F92F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA7BCB61E621AE90039F92F;
+			remoteInfo = ThirdPractice;
+		};
+		1CA7BCD71E621AEA0039F92F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA7BCAF1E621AE90039F92F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA7BCB61E621AE90039F92F;
+			remoteInfo = ThirdPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1971541E628FC0002D0A9C /* Symptoms3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Symptoms3.png; sourceTree = "<group>"; };
+		1C1971561E628FCB002D0A9C /* Glucose3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glucose3.png; sourceTree = "<group>"; };
+		1C19715A1E628FD7002D0A9C /* Weight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight2.png; sourceTree = "<group>"; };
+		1C19715C1E628FF2002D0A9C /* Export4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Export4.png; sourceTree = "<group>"; };
+		1C19715E1E629008002D0A9C /* BloodPressure3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BloodPressure3.png; sourceTree = "<group>"; };
+		1C1971601E6292B2002D0A9C /* Help4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help4.png; sourceTree = "<group>"; };
+		1C1A97D21E968F0E006EBBDD /* WeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		1C1A97DA1E97EBD4006EBBDD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../ThirdPractice copy/ThirdPractice/ViewController.swift"; sourceTree = "<group>"; };
+		1C1A97DE1E97FDE6006EBBDD /* BloodPressureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressureViewController.swift; sourceTree = "<group>"; };
+		1C1A97E01E9D4616006EBBDD /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		1C2991511E6D1C750071A909 /* SAVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SAVE.png; sourceTree = "<group>"; };
+		1C2991531E6D1DAE0071A909 /* SAVE2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SAVE2.png; sourceTree = "<group>"; };
+		1C2991551E6D1E4C0071A909 /* SAVE3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SAVE3.png; sourceTree = "<group>"; };
+		1C2991591E6D33830071A909 /* save2@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save2@1x.png"; sourceTree = "<group>"; };
+		1C29915B1E6D33BA0071A909 /* save1.1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save1.1@1x.png"; sourceTree = "<group>"; };
+		1C29915D1E6D343A0071A909 /* save1.1@1x.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "save1.1@1x.pdf"; sourceTree = "<group>"; };
+		1C29915F1E6D36980071A909 /* savejoint.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = savejoint.pdf; sourceTree = "<group>"; };
+		1C2991611E6D372E0071A909 /* savejoint2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = savejoint2.pdf; sourceTree = "<group>"; };
+		1C669D271E62A65600BF344C /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		1C669D291E6A731700BF344C /* Symptoms5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Symptoms5.png; sourceTree = "<group>"; };
+		1C669D2B1E6B460900BF344C /* Glucose5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glucose5.png; sourceTree = "<group>"; };
+		1C669D2D1E6B463300BF344C /* BloodPressure5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BloodPressure5.png; sourceTree = "<group>"; };
+		1C669D2F1E6B467700BF344C /* Weight5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weight5.png; sourceTree = "<group>"; };
+		1C6E7AAB1E876B7200952485 /* GlucoseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlucoseViewController.swift; sourceTree = "<group>"; };
+		1C74F0661E6B55BB004D3436 /* Home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home2.png; sourceTree = "<group>"; };
+		1C8AD7871E6B82F700D49E00 /* Symptoms6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Symptoms6.png; sourceTree = "<group>"; };
+		1C8AD78D1E6B83FA00D49E00 /* Glucose7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glucose7.png; sourceTree = "<group>"; };
+		1CA7BCB71E621AE90039F92F /* ThirdPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA7BCBA1E621AE90039F92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CA7BCBF1E621AE90039F92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CA7BCC11E621AE90039F92F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CA7BCC41E621AE90039F92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CA7BCCB1E621AE90039F92F /* ThirdPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA7BCCF1E621AE90039F92F /* ThirdPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPracticeTests.swift; sourceTree = "<group>"; };
+		1CA7BCD61E621AEA0039F92F /* ThirdPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA7BCDA1E621AEA0039F92F /* ThirdPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPracticeUITests.swift; sourceTree = "<group>"; };
+		1CADE27C1E629A0000C36D5B /* SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		1CB875D51E6BE596006AAABE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC4CE721E7649D70093E7C1 /* Oxygen-Icons.org-Oxygen-Actions-media-record.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = "Oxygen-Icons.org-Oxygen-Actions-media-record.ico"; path = "../../../Downloads/Oxygen-Icons.org-Oxygen-Actions-media-record.ico"; sourceTree = "<group>"; };
+		1CC4CE741E764A1D0093E7C1 /* recording1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = recording1.pdf; path = ../../recording1.pdf; sourceTree = "<group>"; };
+		1CC4CE761E764AA30093E7C1 /* recording2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = recording2.pdf; path = ../../recording2.pdf; sourceTree = "<group>"; };
+		1CC4CE781E764B090093E7C1 /* recording2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = recording2.pdf; path = ../../recording2.pdf; sourceTree = "<group>"; };
+		1CC4CE7A1E764B550093E7C1 /* recording3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = recording3.pdf; path = ../../recording3.pdf; sourceTree = "<group>"; };
+		1CC4CE7C1E7B78130093E7C1 /* hideh.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = hideh.pdf; path = ../../hideh.pdf; sourceTree = "<group>"; };
+		1CCDA30A1E6FC8B90041419E /* mic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic2.png; sourceTree = "<group>"; };
+		1CCDA30C1E6FC9330041419E /* mic2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mic2.pdf; sourceTree = "<group>"; };
+		1CCDA30E1E74FEDE0041419E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CD0820A1E9D5C1500403C46 /* SendHealthDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendHealthDataViewController.swift; sourceTree = "<group>"; };
+		1CD0820C1EA2BB5D00403C46 /* BPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA7BCB41E621AE90039F92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCC81E621AE90039F92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCD31E621AEA0039F92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA7BCAE1E621AE90039F92F = {
+			isa = PBXGroup;
+			children = (
+				1CCDA30E1E74FEDE0041419E /* Default-568h@2x.png */,
+				1CA7BCB91E621AE90039F92F /* ThirdPractice */,
+				1CA7BCCE1E621AE90039F92F /* ThirdPracticeTests */,
+				1CA7BCD91E621AEA0039F92F /* ThirdPracticeUITests */,
+				1CA7BCB81E621AE90039F92F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA7BCB81E621AE90039F92F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA7BCB71E621AE90039F92F /* ThirdPractice.app */,
+				1CA7BCCB1E621AE90039F92F /* ThirdPracticeTests.xctest */,
+				1CA7BCD61E621AEA0039F92F /* ThirdPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA7BCB91E621AE90039F92F /* ThirdPractice */ = {
+			isa = PBXGroup;
+			children = (
+				1CA7BCBA1E621AE90039F92F /* AppDelegate.swift */,
+				1C6E7AAB1E876B7200952485 /* GlucoseViewController.swift */,
+				1CA7BCBE1E621AE90039F92F /* Main.storyboard */,
+				1CADE27C1E629A0000C36D5B /* SymptomsViewController.swift */,
+				1C1A97D21E968F0E006EBBDD /* WeightViewController.swift */,
+				1C1A97DA1E97EBD4006EBBDD /* ViewController.swift */,
+				1CD0820A1E9D5C1500403C46 /* SendHealthDataViewController.swift */,
+				1CD0820C1EA2BB5D00403C46 /* BPViewController.swift */,
+				1C1A97E01E9D4616006EBBDD /* HelpViewController.swift */,
+				1C1A97DE1E97FDE6006EBBDD /* BloodPressureViewController.swift */,
+				1CA7BCC11E621AE90039F92F /* Assets.xcassets */,
+				1C2991511E6D1C750071A909 /* SAVE.png */,
+				1C2991531E6D1DAE0071A909 /* SAVE2.png */,
+				1C1971561E628FCB002D0A9C /* Glucose3.png */,
+				1CC4CE721E7649D70093E7C1 /* Oxygen-Icons.org-Oxygen-Actions-media-record.ico */,
+				1C2991591E6D33830071A909 /* save2@1x.png */,
+				1C2991551E6D1E4C0071A909 /* SAVE3.png */,
+				1C29915F1E6D36980071A909 /* savejoint.pdf */,
+				1C2991611E6D372E0071A909 /* savejoint2.pdf */,
+				1CC4CE7C1E7B78130093E7C1 /* hideh.pdf */,
+				1C29915D1E6D343A0071A909 /* save1.1@1x.pdf */,
+				1CCDA30C1E6FC9330041419E /* mic2.pdf */,
+				1CCDA30A1E6FC8B90041419E /* mic2.png */,
+				1C1971541E628FC0002D0A9C /* Symptoms3.png */,
+				1C669D291E6A731700BF344C /* Symptoms5.png */,
+				1C8AD7871E6B82F700D49E00 /* Symptoms6.png */,
+				1C8AD78D1E6B83FA00D49E00 /* Glucose7.png */,
+				1C29915B1E6D33BA0071A909 /* save1.1@1x.png */,
+				1C669D271E62A65600BF344C /* Home.png */,
+				1C669D2F1E6B467700BF344C /* Weight5.png */,
+				1C74F0661E6B55BB004D3436 /* Home2.png */,
+				1C19715C1E628FF2002D0A9C /* Export4.png */,
+				1C669D2B1E6B460900BF344C /* Glucose5.png */,
+				1C669D2D1E6B463300BF344C /* BloodPressure5.png */,
+				1CC4CE761E764AA30093E7C1 /* recording2.pdf */,
+				1CC4CE7A1E764B550093E7C1 /* recording3.pdf */,
+				1CC4CE781E764B090093E7C1 /* recording2.pdf */,
+				1CC4CE741E764A1D0093E7C1 /* recording1.pdf */,
+				1C19715E1E629008002D0A9C /* BloodPressure3.png */,
+				1C1971601E6292B2002D0A9C /* Help4.png */,
+				1C19715A1E628FD7002D0A9C /* Weight2.png */,
+				1CB875D51E6BE596006AAABE /* Info.plist */,
+				1CA7BCC31E621AE90039F92F /* LaunchScreen.storyboard */,
+			);
+			path = ThirdPractice;
+			sourceTree = "<group>";
+		};
+		1CA7BCCE1E621AE90039F92F /* ThirdPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA7BCCF1E621AE90039F92F /* ThirdPracticeTests.swift */,
+			);
+			path = ThirdPracticeTests;
+			sourceTree = "<group>";
+		};
+		1CA7BCD91E621AEA0039F92F /* ThirdPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA7BCDA1E621AEA0039F92F /* ThirdPracticeUITests.swift */,
+			);
+			path = ThirdPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA7BCB61E621AE90039F92F /* ThirdPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA7BCDF1E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPractice" */;
+			buildPhases = (
+				1CA7BCB31E621AE90039F92F /* Sources */,
+				1CA7BCB41E621AE90039F92F /* Frameworks */,
+				1CA7BCB51E621AE90039F92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThirdPractice;
+			productName = ThirdPractice;
+			productReference = 1CA7BCB71E621AE90039F92F /* ThirdPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA7BCCA1E621AE90039F92F /* ThirdPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA7BCE21E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPracticeTests" */;
+			buildPhases = (
+				1CA7BCC71E621AE90039F92F /* Sources */,
+				1CA7BCC81E621AE90039F92F /* Frameworks */,
+				1CA7BCC91E621AE90039F92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA7BCCD1E621AE90039F92F /* PBXTargetDependency */,
+			);
+			name = ThirdPracticeTests;
+			productName = ThirdPracticeTests;
+			productReference = 1CA7BCCB1E621AE90039F92F /* ThirdPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CA7BCD51E621AEA0039F92F /* ThirdPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA7BCE51E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPracticeUITests" */;
+			buildPhases = (
+				1CA7BCD21E621AEA0039F92F /* Sources */,
+				1CA7BCD31E621AEA0039F92F /* Frameworks */,
+				1CA7BCD41E621AEA0039F92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA7BCD81E621AEA0039F92F /* PBXTargetDependency */,
+			);
+			name = ThirdPracticeUITests;
+			productName = ThirdPracticeUITests;
+			productReference = 1CA7BCD61E621AEA0039F92F /* ThirdPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA7BCAF1E621AE90039F92F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rohan Taneja";
+				TargetAttributes = {
+					1CA7BCB61E621AE90039F92F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AA75RRYDLV;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					1CA7BCCA1E621AE90039F92F = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CA7BCB61E621AE90039F92F;
+					};
+					1CA7BCD51E621AEA0039F92F = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CA7BCB61E621AE90039F92F;
+					};
+				};
+			};
+			buildConfigurationList = 1CA7BCB21E621AE90039F92F /* Build configuration list for PBXProject "ThirdPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA7BCAE1E621AE90039F92F;
+			productRefGroup = 1CA7BCB81E621AE90039F92F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA7BCB61E621AE90039F92F /* ThirdPractice */,
+				1CA7BCCA1E621AE90039F92F /* ThirdPracticeTests */,
+				1CA7BCD51E621AEA0039F92F /* ThirdPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA7BCB51E621AE90039F92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C19715B1E628FD7002D0A9C /* Weight2.png in Resources */,
+				1C19715F1E629008002D0A9C /* BloodPressure3.png in Resources */,
+				1CCDA30B1E6FC8BA0041419E /* mic2.png in Resources */,
+				1CB875D61E6BE596006AAABE /* Info.plist in Resources */,
+				1CC4CE791E764B090093E7C1 /* recording2.pdf in Resources */,
+				1C8AD7881E6B82F700D49E00 /* Symptoms6.png in Resources */,
+				1CC4CE771E764AA30093E7C1 /* recording2.pdf in Resources */,
+				1C669D2A1E6A731700BF344C /* Symptoms5.png in Resources */,
+				1CCDA30F1E74FEDE0041419E /* Default-568h@2x.png in Resources */,
+				1C2991601E6D36980071A909 /* savejoint.pdf in Resources */,
+				1C669D301E6B467700BF344C /* Weight5.png in Resources */,
+				1C669D281E62A65700BF344C /* Home.png in Resources */,
+				1C29915C1E6D33BA0071A909 /* save1.1@1x.png in Resources */,
+				1CA7BCC51E621AE90039F92F /* LaunchScreen.storyboard in Resources */,
+				1CC4CE7B1E764B550093E7C1 /* recording3.pdf in Resources */,
+				1CCDA30D1E6FC9330041419E /* mic2.pdf in Resources */,
+				1CC4CE751E764A1D0093E7C1 /* recording1.pdf in Resources */,
+				1CA7BCC21E621AE90039F92F /* Assets.xcassets in Resources */,
+				1C2991621E6D372E0071A909 /* savejoint2.pdf in Resources */,
+				1C19715D1E628FF2002D0A9C /* Export4.png in Resources */,
+				1C2991521E6D1C750071A909 /* SAVE.png in Resources */,
+				1C1971571E628FCB002D0A9C /* Glucose3.png in Resources */,
+				1C1971611E6292B2002D0A9C /* Help4.png in Resources */,
+				1C2991541E6D1DAE0071A909 /* SAVE2.png in Resources */,
+				1CA7BCC01E621AE90039F92F /* Main.storyboard in Resources */,
+				1C29915A1E6D33830071A909 /* save2@1x.png in Resources */,
+				1C74F0671E6B55BB004D3436 /* Home2.png in Resources */,
+				1C2991561E6D1E4C0071A909 /* SAVE3.png in Resources */,
+				1C669D2C1E6B460900BF344C /* Glucose5.png in Resources */,
+				1C669D2E1E6B463300BF344C /* BloodPressure5.png in Resources */,
+				1C8AD78E1E6B83FA00D49E00 /* Glucose7.png in Resources */,
+				1C29915E1E6D343A0071A909 /* save1.1@1x.pdf in Resources */,
+				1CC4CE731E7649D70093E7C1 /* Oxygen-Icons.org-Oxygen-Actions-media-record.ico in Resources */,
+				1CC4CE7D1E7B78130093E7C1 /* hideh.pdf in Resources */,
+				1C1971551E628FC0002D0A9C /* Symptoms3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCC91E621AE90039F92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB875D71E6BE596006AAABE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCD41E621AEA0039F92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB875D81E6BE596006AAABE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA7BCB31E621AE90039F92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD0820D1EA2BB5D00403C46 /* BPViewController.swift in Sources */,
+				1C1A97DB1E97EBD4006EBBDD /* ViewController.swift in Sources */,
+				1C1A97DF1E97FDE6006EBBDD /* BloodPressureViewController.swift in Sources */,
+				1C1A97E11E9D4616006EBBDD /* HelpViewController.swift in Sources */,
+				1CD0820B1E9D5C1500403C46 /* SendHealthDataViewController.swift in Sources */,
+				1CA7BCBB1E621AE90039F92F /* AppDelegate.swift in Sources */,
+				1CADE27D1E629A0000C36D5B /* SymptomsViewController.swift in Sources */,
+				1C6E7AAC1E876B7200952485 /* GlucoseViewController.swift in Sources */,
+				1C1A97D31E968F0E006EBBDD /* WeightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCC71E621AE90039F92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA7BCD01E621AE90039F92F /* ThirdPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA7BCD21E621AEA0039F92F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA7BCDB1E621AEA0039F92F /* ThirdPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA7BCCD1E621AE90039F92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA7BCB61E621AE90039F92F /* ThirdPractice */;
+			targetProxy = 1CA7BCCC1E621AE90039F92F /* PBXContainerItemProxy */;
+		};
+		1CA7BCD81E621AEA0039F92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA7BCB61E621AE90039F92F /* ThirdPractice */;
+			targetProxy = 1CA7BCD71E621AEA0039F92F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CA7BCBE1E621AE90039F92F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA7BCBF1E621AE90039F92F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CA7BCC31E621AE90039F92F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA7BCC41E621AE90039F92F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA7BCDD1E621AEA0039F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CA7BCDE1E621AEA0039F92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA7BCE01E621AEA0039F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AA75RRYDLV;
+				INFOPLIST_FILE = ThirdPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1CA7BCE11E621AEA0039F92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = AA75RRYDLV;
+				INFOPLIST_FILE = ThirdPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1CA7BCE31E621AEA0039F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ThirdPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPractice/ThirdPracticeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThirdPractice.app/ThirdPractice";
+			};
+			name = Debug;
+		};
+		1CA7BCE41E621AEA0039F92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ThirdPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPractice/ThirdPracticeTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThirdPractice.app/ThirdPractice";
+			};
+			name = Release;
+		};
+		1CA7BCE61E621AEA0039F92F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ThirdPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPractice/ThirdPracticeUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThirdPractice;
+			};
+			name = Debug;
+		};
+		1CA7BCE71E621AEA0039F92F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ThirdPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Testing.ThirdPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPractice/ThirdPracticeUITests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThirdPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA7BCB21E621AE90039F92F /* Build configuration list for PBXProject "ThirdPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA7BCDD1E621AEA0039F92F /* Debug */,
+				1CA7BCDE1E621AEA0039F92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA7BCDF1E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA7BCE01E621AEA0039F92F /* Debug */,
+				1CA7BCE11E621AEA0039F92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA7BCE21E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA7BCE31E621AEA0039F92F /* Debug */,
+				1CA7BCE41E621AEA0039F92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA7BCE51E621AEA0039F92F /* Build configuration list for PBXNativeTarget "ThirdPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA7BCE61E621AEA0039F92F /* Debug */,
+				1CA7BCE71E621AEA0039F92F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA7BCAF1E621AE90039F92F /* Project object */;
+}
